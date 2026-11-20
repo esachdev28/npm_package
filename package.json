@@ -1,0 +1,50 @@
+{
+  "name": "winter-mode",
+  "version": "1.0.0",
+  "description": "Turn any website into an interactive winter wonderland: falling snow that piles up dynamically on top of letters, words, images, and buttons.",
+  "main": "winter-mode.js",
+  "types": "index.d.ts",
+  "unpkg": "winter-mode.js",
+  "jsdelivr": "winter-mode.js",
+  "bin": {
+    "winter-mode": "bin/winter-mode.js"
+  },
+  "files": [
+    "winter-mode.js",
+    "auto.js",
+    "auto.d.ts",
+    "index.d.ts",
+    "bin"
+  ],
+  "sideEffects": [
+    "./auto.js"
+  ],
+  "scripts": {
+    "demo": "npx --yes serve . -l 5173",
+    "test": "node -e \"const wm = require('./winter-mode.js'); console.log('winter-mode loaded successfully, v' + wm.version);\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esachdev28/npm_package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/esachdev28/npm_package/issues"
+  },
+  "homepage": "https://github.com/esachdev28/npm_package#readme",
+  "keywords": [
+    "snow",
+    "snowfall",
+    "winter",
+    "christmas",
+    "holiday",
+    "effect",
+    "animation",
+    "canvas",
+    "website",
+    "theme",
+    "interactive-snow",
+    "ui-component"
+  ],
+  "author": "Ekta Sachdev <esachdev5@gmail.com> (https://github.com/esachdev28)",
+  "license": "MIT"
+}
